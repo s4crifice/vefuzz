@@ -12,17 +12,18 @@ python vefuzz.py -w path_to_wordlist -u target_url -o output_file [options]
 
 ## Options
 
--w, --wordlist: Path to the keyword list file.
--u, --url: URL of the target website with 'FUZZ' as a placeholder.
--o, --output: Output file to save results.
--fc, --filter_code: HTTP response codes to ignore.
--fl, --filter_length: Filter by HTTP response length.
--fs, --filter_size: Filter by HTTP response size.
--H, --headers: Custom headers for the HTTP request with 'FUZZ' as a placeholder.
---no-ssl: Disable SSL certificate verification.
--t, --timeout: Timeout for HTTP requests in seconds.
--e, --extensions: Manipulate extensions.
--m, --method: HTTP method to be used (default: GET).
+- -w, --wordlist: Path to the keyword list file.
+- -u, --url: URL of the target website with 'FUZZ' as a placeholder.
+- -o, --output: Output file to save results.
+- -fc, --filter_code: HTTP response codes to ignore.
+- -fc, --filter_code: HTTP response codes to ignore.
+- -fl, --filter_length: Filter by HTTP response length.
+- -fs, --filter_size: Filter by HTTP response size.
+- -H, --headers: Custom headers for the HTTP request with 'FUZZ' as a placeholder.
+- --no-ssl: Disable SSL certificate verification.
+- -t, --timeout: Timeout for HTTP requests in seconds.
+- -e, --extensions: Manipulate extensions.
+- -m, --method: HTTP method to be used (default: GET).
 
 ## Example
 
