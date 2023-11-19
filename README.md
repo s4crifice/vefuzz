@@ -41,9 +41,9 @@ This example fuzzes the URL https://example.com/FUZZ with the words from the com
 
 ## Credits
 
-Version: 1.0
-Author: Wiktor Nowakowski
-Inspired by FFUF (https://github.com/ffuf/ffuf)
+- Version: 1.0
+- Author: Wiktor Nowakowski
+- Inspired by FFUF (https://github.com/ffuf/ffuf)
 
 ## Disclaimer
 
